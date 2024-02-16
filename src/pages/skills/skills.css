@@ -1,0 +1,39 @@
+.Skills {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Skills h2:hover {
+  color:#61dafb;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.Skills div {
+  display: flex;
+  
+  color:#fafafa;
+  text-align: center;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.Skills img {
+  color:#fafafa;
+  width: 500px; 
+  height: 300px;
+  object-fit: cover;
+  filter: brightness(1.1);
+  
+  mix-blend-mode: multiply;
+}
+
